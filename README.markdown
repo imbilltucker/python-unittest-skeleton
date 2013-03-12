@@ -26,6 +26,6 @@ To use:
   * Copy "Makefile" into your test directory.  It should work without
     modification.
 
-  * If you are doing bootle web development, copy "test_bottle.py" into
+  * If you are doing bottle web development, copy "test_bottle.py" into
     your "test" directory and rename it to something more useful.
 
