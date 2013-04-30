@@ -16,10 +16,12 @@ class test_XXX_Test_Group_Name(unittest.TestCase):
 	@classmethod
 	def setUp(self):
 		###  XXX code to do setup
+        ### Remember: this code get executed before every test
 		pass
 
 	def tearDown(self):
 		###  XXX code to do tear down
+        ### Remember: this code get executed after every test
 		pass
 
 	def test_XXX_Test_Name(self):
@@ -33,4 +35,11 @@ class test_XXX_Test_Group_Name(unittest.TestCase):
 		#	raise Exception('test')
 		# self.assertIn('fun', 'disfunctional')
 
-unittest.main()
+if __name__ == "__main__" :
+    #structure for running 1 test or selection of tests:
+    #suite = unittest.TestSuite()
+    #suite.addTest(test_XXX_Test_Group_Name('test_XXX_Test_Name')
+    #unittest.TextTestRunner().run(suite)
+
+    #run all the tests!
+    unittest.main()
