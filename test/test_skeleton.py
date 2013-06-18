@@ -16,12 +16,12 @@ class test_XXX_Test_Group_Name(unittest.TestCase):
 	@classmethod
 	def setUp(self):
 		###  XXX code to do setup
-        ### Remember: this code get executed before every test
+        ### Remember: this code gets executed before every test
 		pass
 
 	def tearDown(self):
 		###  XXX code to do tear down
-        ### Remember: this code get executed after every test
+        ### Remember: this code gets executed after every test
 		pass
 
 	def test_XXX_Test_Name(self):
